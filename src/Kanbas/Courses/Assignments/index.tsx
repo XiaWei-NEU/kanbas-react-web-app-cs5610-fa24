@@ -16,6 +16,7 @@ export default function Assignments() {
                     </a>
                     <div className="wd-assignment-details">
                         <span>Multiple Modules | <b>Not available until</b> May 6 at 12:00am |
+                        <br />
                         <b>Due</b> May 13 at 11:59pm | 100 pts</span>
                     </div>
                 </li>
@@ -26,6 +27,7 @@ export default function Assignments() {
                     </a>
                     <div className="wd-assignment-details">
                         <span>Multiple Modules | <b>Not available until</b> May 13 at 12:00am |
+                        <br />
                         <b>Due</b> May 20 at 11:59pm | 100 pts</span>
                     </div>
                 </li>
@@ -36,6 +38,7 @@ export default function Assignments() {
                     </a>
                     <div className="wd-assignment-details">
                         <span>Multiple Modules | <b>Not available until</b> May 20 at 12:00am |
+                        <br />
                         <b>Due</b> May 27 at 11:59pm | 100 pts</span>
                     </div>
                 </li>
