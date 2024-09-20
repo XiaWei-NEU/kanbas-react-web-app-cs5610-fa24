@@ -12,7 +12,7 @@ export default function Home() {
                     <option value="PUBLISH2">Publish 2</option>
                     <option value="PUBLISH3">Publish 3</option>
                 </select>
-                <button id="wd-add-assignment">+ Modul</button>
+                <button id="wd-add-assignment">+ Module</button>
             </div>
             <table id="wd-home">
                 <tbody>
