@@ -7,8 +7,23 @@ export default function Lab1() {
         <h4>Heading Tags</h4>
         Text documents are often broken up into several sections and subsections. Each section is usually prefaced with a short title or heading that attempts to summarize the topic of the section it precedes. For instance this paragraph is preceded by the heading Heading Tags. The font of the section headings are usually larger and bolder than their subsection headings. This document uses headings to introduce topics such as HTML Documents, HTML Tags, Heading Tags, etc. HTML heading tags can be used to format plain text so that it renders in a browser as large headings. There are 6 heading tags for different sizes: h1, h2, h3, h4, h5, and h6. Tag h1 is the largest heading and h6 is the smallest heading.
         <h4>Paragraphs</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        <p id="wd-p-1">
+          This is a paragraph. We often separate a long set of sentences with vertical spaces to make the text easier to read. Browsers ignore vertical white spaces and render all the text as one single set of sentences. To force the browser to add vertical spacing, wrap the paragraphs you want to separate with the paragraph tag
+        </p>
+        <p id="wd-p-2">
+          This is the first paragraph. The paragraph tag is used to format
+          vertical gaps between long pieces of text like this one.
+        </p>
+        <p id="wd-p-3">
+          This is the second paragraph. Even though there is a deliberate white
+          gap between the paragraph above and this paragraph, by default
+          browsers render them as one contiguous piece of text as shown here on
+          the right.
+        </p>
+        <p id="wd-p-4">
+          This is the third paragraph. Wrap each paragraph with the paragraph
+          tag to tell browsers to render the gaps.
+        </p>
       </div>
       <div id="wd-lists">
         <h4>List Tags</h4>
@@ -24,6 +39,29 @@ export default function Lab1() {
           <li>Flip and cook the other side.</li>
           <li>Serve and enjoy!</li>
         </ol>
+        My favorite recipe:
+        <ol id="wd-your-favorite-recipe">
+          <li>Heat the pancake slices on a frying pan.</li>
+          <li>Then add the vegetables, bacon and sausage and continue to heat.</li>
+          <li>Once everything is heated, roll it up.</li>
+          <li>Serve and enjoy!</li>
+        </ol>
+        <h5>Unordered List Tag</h5>
+        My favorite books (in no particular order)
+        <ul id="wd-my-books">
+          <li>Dune</li>
+          <li>Lord of the Rings</li>
+          <li>Ender's Game</li>
+          <li>Red Mars</li>
+          <li>The Forever War</li>
+        </ul>
+        Your favorite books (in no particular order)
+        <ul id="wd-your-books">
+          <li>The Great Gatsby</li>
+          <li>To Kill a Mockingbird</li>
+          <li>Pride and Prejudice</li>
+          <li>The Catcher in the Rye</li>
+        </ul>
       </div>
       <div id="wd-tables">
         <h4>Table Tag</h4>
@@ -70,7 +108,6 @@ export default function Lab1() {
           </tfoot>
         </table>
       </div>
-
       <div id="wd-images">
         <h4>Image tag</h4>
         Loading an image from the internet:
@@ -84,7 +121,6 @@ export default function Lab1() {
         <br />
         <img id="wd-teslabot" src="images/teslabot.jpg" height="200px" />
       </div>
-
       <div id="wd-forms">
         <h4>Form Elements</h4>
         <form id="wd-text-fields">
@@ -103,14 +139,13 @@ export default function Lab1() {
             value="Wonderland" title="The last name" />
           <h5>Text boxes</h5>
           <label>Biography:</label><br />
-          <textarea id="wd-textarea" cols={30} rows={15}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
-
+          <textarea id="wd-textarea" cols={30} rows={10}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
           <h5 id="wd-buttons">Buttons</h5>
           <button id="wd-all-good" onClick={() => alert("Life is Good!")} type="button">
             Hello World!
           </button>
-
-
+          <h5>File upload</h5>
+          <input id="wd-upload" type="file" />
           <h5 id="wd-radio-buttons">Radio buttons</h5>
           <label>Favorite movie genre:</label><br />
           <input type="radio" name="radio-genre" id="wd-radio-comedy" />
@@ -125,7 +160,6 @@ export default function Lab1() {
             <input type="radio" name="radio-genre" />
             Horror
           </label>
-
           <h5 id="wd-checkboxes">Checkboxes</h5>
           <label>Favorite movie genre:</label><br />
           <input type="checkbox" name="check-genre" id="wd-chkbox-comedy" />
@@ -136,9 +170,7 @@ export default function Lab1() {
           <label htmlFor="wd-chkbox-scifi">Science Fiction</label><br />
           <input type="checkbox" name="check-genre" id="wd-chkbox-fantasy" />
           <label htmlFor="wd-chkbox-fantasy">Fantasy</label>
-
           <h4 id="wd-dropdowns">Dropdowns</h4>
-
           <h5>Select one</h5>
           <label htmlFor="wd-select-one-genre"> Favorite movie genre: </label><br />
           <select id="wd-select-one-genre">
@@ -148,7 +180,6 @@ export default function Lab1() {
               Science Fiction</option>
             <option value="FANTASY">Fantasy</option>
           </select>
-
           <h5>Select many</h5>
           <label htmlFor="wd-select-many-genre"> Favorite movie genres: </label><br />
           <select id="wd-select-many-genre" multiple>
@@ -158,7 +189,6 @@ export default function Lab1() {
               Science Fiction</option>
             <option value="FANTASY">Fantasy</option>
           </select>
-
           <h4>Other HTML field types</h4>
           <label htmlFor="wd-text-fields-salary-start"> Starting salary:
           </label>
@@ -169,7 +199,7 @@ export default function Lab1() {
             min="10000"
             max="10005" /><br />
           <label htmlFor="wd-text-fields-rating"> Rating: </label>
-          <input type="range" 
+          <input type="range"
             id="wd-text-fields-rating"
             placeholder="Doe"
             max="5"
@@ -182,11 +212,14 @@ export default function Lab1() {
           <input type="date"
             id="wd-text-fields-dob"
             value="2000-01-21" /><br />
-
-
         </form>
       </div>
-
+      <div id="wd-github">
+        <h4>Anchor tag</h4>
+        Please
+        <a id="wd-lipsum" href="https://www.lipsum.com">click here</a>
+        to get dummy text<br />
+      </div>
     </div>
   );
 }
