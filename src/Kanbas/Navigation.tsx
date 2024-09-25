@@ -1,10 +1,12 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { AiOutlineDashboard } from "react-icons/ai";
 import { IoCalendarOutline } from "react-icons/io5";
 import { LiaBookSolid, LiaCogSolid } from "react-icons/lia";
 import { FaInbox, FaRegCircleUser } from "react-icons/fa6";
 
 export default function KanbasNavigation() {
+    const location = useLocation();
+    const isCoursesActive = location.pathname.startsWith("/Kanbas/Courses/");
     return (
         <div id="wd-kanbas-navigation" style={{ width: 120 }}
             className="list-group rounded-0 position-fixed
@@ -24,8 +26,8 @@ export default function KanbasNavigation() {
                 <AiOutlineDashboard className="fs-1 text-danger" /><br />
                 Dashboard
             </NavLink>   
-            <NavLink to="/Kanbas/Courses" id="wd-course-link"
-                className={({ isActive }) => `list-group-item text-center border-0 ${isActive ? 'bg-white' : 'bg-black text-white'}`}>
+            <NavLink to="/Kanbas/Courses/1234/Home" id="wd-course-link"
+                className={({ isActive }) => `list-group-item text-center border-0 ${isCoursesActive ? 'bg-white' : 'bg-black text-white'}`}>
                 <LiaBookSolid className="fs-1 text-danger" /><br />
                 Courses
             </NavLink>

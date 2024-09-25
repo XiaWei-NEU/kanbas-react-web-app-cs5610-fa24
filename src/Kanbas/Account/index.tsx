@@ -6,7 +6,7 @@ import Signup from "./Signup";
 
 export default function Account() {
     return (
-        <div id="wd-account-screen">
+        <div id="wd-account-screen"> 
             <table>
                 <tr>
                     <td valign="top">

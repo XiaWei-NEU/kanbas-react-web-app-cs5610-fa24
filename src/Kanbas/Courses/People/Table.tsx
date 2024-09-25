@@ -71,26 +71,26 @@ export default function PeopleTable() {
                     <tr>
                         <td className="wd-full-name text-nowrap">
                             <FaUserCircle className="me-2 fs-1 text-secondary" />
-                            <span className="wd-first-name">Peter</span>{" "}
-                            <span className="wd-last-name">Parker</span>
+                            <span className="wd-first-name">Thor</span>{" "}
+                            <span className="wd-last-name">Odinson</span>
                         </td>
                         <td className="wd-login-id">005678945P</td>
                         <td className="wd-section">S105</td>
                         <td className="wd-role">STUDENT</td>
-                        <td className="wd-last-activity">2023-04-10</td>
+                        <td className="wd-last-activity">2024-04-10</td>
                         <td className="wd-total-activity">7:45:20</td>
                     </tr>
 
                     <tr>
                         <td className="wd-full-name text-nowrap">
                             <FaUserCircle className="me-2 fs-1 text-secondary" />
-                            <span className="wd-first-name">Carol</span>{" "}
-                            <span className="wd-last-name">Danvers</span>
+                            <span className="wd-first-name">Bruce</span>{" "}
+                            <span className="wd-last-name">Banner</span>
                         </td>
                         <td className="wd-login-id">006789456C</td>
                         <td className="wd-section">S106</td>
                         <td className="wd-role">STUDENT</td>
-                        <td className="wd-last-activity">2023-05-05</td>
+                        <td className="wd-last-activity">2024-10-05</td>
                         <td className="wd-total-activity">18:30:15</td>
                     </tr>
                 </tbody>

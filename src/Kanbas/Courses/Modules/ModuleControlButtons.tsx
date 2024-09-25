@@ -8,7 +8,7 @@ export default function ModuleControlButtons() {
     return (
         <div className="float-end">
         <GreenCheckmark />
-        <BsPlus size={32} />
+        <BsPlus className="fs-4 me-2"/>
         <IoEllipsisVertical className="fs-4" />
     </div>
     );
