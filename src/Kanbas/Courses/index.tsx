@@ -34,7 +34,6 @@ export default function Courses() {
                         <Route path="Grades" element={<h3>Grades</h3>} />
                         <Route path="People" element={<PeopleTable />} />
                     </Routes>
-
                 </div>
             </div>
         </div>
