@@ -10,7 +10,7 @@ export default function LandingNavigation() {
             <h2>Kanbas Application</h2>
             <Link to="../Kanbas" id="wd-kanbas-link">Kanbas</Link><br />
             <h2>Source Code Repositories</h2>
-            <a href="https://github.com/XiaWei-NEU/kanbas-react-web-app-cs5610-fa24" id="wd-home-link">Repo</a>
+            <a href="https://github.com/XiaWei-NEU/kanbas-react-web-app-cs5610-fa24" id="wd-github">Repo</a>
         </div>
     );
 }
