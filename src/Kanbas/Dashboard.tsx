@@ -12,7 +12,7 @@ export default function Dashboard() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link className="wd-dashboard-course-link text-decoration-none text-dark"
                                 to="/Kanbas/Courses/1234/Home">
-                                <img src="/images/reactjs.jpg" width="100%" height={160} />
+                                <img src="/images/reactjs.jpg" alt="" width="100%" height={160} />
                                 <div className="card-body">
                                     <h5 className="wd-dashboard-course-title card-title">
                                         CS1234 React JS
@@ -32,7 +32,7 @@ export default function Dashboard() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link className="wd-dashboard-course-link text-decoration-none text-dark"
                                 to="/Kanbas/Courses/1235/Home">
-                                <img src="/images/reactjs.jpg" width="100%" height={160} />
+                                <img src="/images/reactjs.jpg" alt="" width="100%" height={160} />
                                 <div className="card-body">
                                     <h5 className="wd-dashboard-course-title card-title">
                                         CS1235 Node JS
@@ -52,7 +52,7 @@ export default function Dashboard() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link className="wd-dashboard-course-link text-decoration-none text-dark"
                                 to="/Kanbas/Courses/1236/Home">
-                                <img src="/images/reactjs.jpg" width="100%" height={160} />
+                                <img src="/images/reactjs.jpg" alt="" width="100%" height={160} />
                                 <div className="card-body">
                                     <h5 className="wd-dashboard-course-title card-title">
                                         CS1236 Angular JS
@@ -72,7 +72,7 @@ export default function Dashboard() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link className="wd-dashboard-course-link text-decoration-none text-dark"
                                 to="/Kanbas/Courses/1237/Home">
-                                <img src="/images/reactjs.jpg" width="100%" height={160} />
+                                <img src="/images/reactjs.jpg" alt="" width="100%" height={160} />
                                 <div className="card-body">
                                     <h5 className="wd-dashboard-course-title card-title">
                                         CS1237 VUE JS
@@ -92,7 +92,7 @@ export default function Dashboard() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link className="wd-dashboard-course-link text-decoration-none text-dark"
                                 to="/Kanbas/Courses/1238/Home">
-                                <img src="/images/reactjs.jpg" width="100%" height={160} />
+                                <img src="/images/reactjs.jpg" alt="" width="100%" height={160} />
                                 <div className="card-body">
                                     <h5 className="wd-dashboard-course-title card-title"    >
                                         CS1238 JavaScript
@@ -112,7 +112,7 @@ export default function Dashboard() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link className="wd-dashboard-course-link text-decoration-none text-dark"
                                 to="/Kanbas/Courses/1239/Home">
-                                <img src="/images/reactjs.jpg" width="100%" height={160} />
+                                <img src="/images/reactjs.jpg" alt="" width="100%" height={160} />
                                 <div className="card-body">
                                     <h5 className="wd-dashboard-course-title card-title"    >
                                         CS1239 JS
@@ -132,7 +132,7 @@ export default function Dashboard() {
                         <div className="card rounded-3 overflow-hidden">
                             <Link className="wd-dashboard-course-link text-decoration-none text-dark"
                                 to="/Kanbas/Courses/1240/Home">
-                                <img src="/images/reactjs.jpg" width="100%" height={160} />
+                                <img src="/images/reactjs.jpg" alt="" width="100%" height={160} />
                                 <div className="card-body">
                                     <h5 className="wd-dashboard-course-title card-title"    >
                                         CS1240 JS
